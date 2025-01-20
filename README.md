@@ -1,0 +1,1 @@
+This example demonstrates a subtle bug in PHP related to the implicit type coercion and how it interacts with array references.  When a function expecting an integer receives an array, unexpected behavior can result when trying to perform arithmetic operations.  The solution showcases how to properly handle arrays in a function, adding more robust type checking and handling.
